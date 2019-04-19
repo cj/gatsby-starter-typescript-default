@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
+      /* eslint-disable @typescript-eslint/camelcase */
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
@@ -26,6 +27,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+      /* eslint-enable @typescript-eslint/camelcase */
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

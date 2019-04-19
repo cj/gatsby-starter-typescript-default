@@ -45,6 +45,7 @@ public/
 !.gitignore
 !.bundle/config
 !.*rc
+!.*rc.js
 !.*ignore
 !.*config
 !.storybook
