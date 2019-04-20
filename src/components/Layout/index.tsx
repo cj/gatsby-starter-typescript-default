@@ -8,7 +8,7 @@
 import React, {FC, ReactNode} from 'react'
 import {graphql, useStaticQuery} from 'gatsby'
 
-import Header from '../Header'
+import Header from '~/components/Header'
 import './layout.css'
 
 export interface Props {
