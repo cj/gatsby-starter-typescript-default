@@ -50,3 +50,4 @@ public/
 !.*config
 !.storybook
 !.prerender-spa.json
+!.env.example

@@ -26,6 +26,11 @@ const Image: FC = (): JSX.Element => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      style={{maxWidth: `300px`}}
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 export default Image

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-typescript-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A simple typescript starter to get up and developing quickly with Gatsby",
+  "version": "0.0.1",
+  "author": "CJ Lazell <email@cj.io>",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -32,19 +32,29 @@
     ]
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dotenv-flow": "^0.4.0-rc.1",
     "gatsby": "^2.3.25",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-netlify": "^2.0.14",
     "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-purgecss": "^3.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-sitemap": "^2.0.12",
     "gatsby-plugin-typescript": "^2.0.12",
+    "gatsby-plugin-webpack-size": "0.0.3",
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-sharp": "^2.1.18",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "sass": "^1.19.0"
   },
   "devDependencies": {
     "@hot-loader/react-dom": "^16.8.6",
@@ -75,12 +85,13 @@
     "typescript": "^3.4.4"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/cj/gatsby-starter-typescript-default"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

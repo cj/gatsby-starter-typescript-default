@@ -1,0 +1,10 @@
+$font-family-sans-serif: 'Benton Sans', 'Helvetica Neue', helvetica, arial,
+  sans-serif;
+$enable-responsive-font-sizes: true;
+$enable-shadows: true;
+
+$theme-colors: (
+  'primary': rebeccapurple,
+);
+
+@import 'bootstrap/scss/variables';

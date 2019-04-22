@@ -6,13 +6,13 @@
 const path = require('path')
 
 // You can delete this file if you're not using it
-exports.onCreateWebpackConfig = ({getConfig, stage}) => {
-  const config = getConfig()
-  if (stage.startsWith('develop') && config.resolve) {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      'react-dom': '@hot-loader/react-dom',
-      '~': path.join(__dirname, 'src'),
-    }
-  }
+exports.onCreateWebpackConfig = ({actions}) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        'react-dom': '@hot-loader/react-dom',
+        '~': path.join(__dirname, 'src'),
+      },
+    },
+  })
 }
